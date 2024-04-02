@@ -1,6 +1,6 @@
 {
-  "name": "image-processor",
-  "version": "6.7.0",
+  "name": "image-processor-ys",
+  "version": "6.17.0",
   "description": "",
   "scripts": {
     "compile": "tsc",
@@ -11,17 +11,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jsplumb/jsplumbtoolkit-applications.git"
+    "url": "git+https://github.com/jsplumb-demonstrations/image-processor.git"
   },
   "author": "jsPlumb <hello@jsplumbtoolkit.com> (https://jsplumbtoolkit.com)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jsplumb/jsplumbtoolkit-applications/issues"
+    "url": "https://github.com/jsplumb-demonstrations/image-processor/issues"
   },
-  "homepage": "https://github.com/jsplumb/jsplumbtoolkit-applications#readme",
+  "homepage": "https://github.com/jsplumb-demonstrations/image-processor#readme",
   "dependencies": {
     "@jsplumb/canvas-image-processing": "^1.0.1",
-    "@jsplumbtoolkit/browser-ui": "^6.7.0"
+    "@jsplumbtoolkit/browser-ui": "^6.17.0"
   },
   "devDependencies": {
     "esbuild": "^0.19.5",
