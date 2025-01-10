@@ -1,12 +1,12 @@
 {
-    "name": "image-processor-ys",
-    "version": "6.81.0",
+    "name": "image-processor-ts",
+    "version": "6.90.0",
     "description": "",
     "scripts": {
         "compile": "tsc",
-        "build-es6": "./node_modules/.bin/esbuild app.ts --target=es2016 --bundle --format=iife --outfile=_build/bundle.js",
-        "build-es6-watch": "./node_modules/.bin/esbuild app.ts --watch --target=es2016 --bundle --format=iife --outfile=_build/bundle.js",
-        "build": "npm run build-es6;npm run transpile-es5",
+        "build": "./node_modules/.bin/esbuild app.ts --target=es2016 --bundle --format=iife --outfile=_build/bundle.js",
+        "build-watch": "./node_modules/.bin/esbuild app.ts --watch --target=es2016 --bundle --format=iife --outfile=_build/bundle.js",
+        "dev": "./node_modules/.bin/esbuild app.ts --target=es2016 --bundle --format=iife --outfile=_build/bundle.js --watch",
         "serve": "./node_modules/.bin/http-server ."
     },
     "repository": {
@@ -21,7 +21,7 @@
     "homepage": "https://github.com/jsplumb-demonstrations/image-processor#readme",
     "dependencies": {
         "@jsplumb/canvas-image-processing": "^1.0.1",
-        "@jsplumbtoolkit/browser-ui": "^6.81.0"
+        "@jsplumbtoolkit/browser-ui": "^6.90.0"
     },
     "devDependencies": {
         "esbuild": "^0.19.5",
