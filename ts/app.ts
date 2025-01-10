@@ -121,9 +121,6 @@ ready(() => {
 
     // Render to a Surface.
     const surface = toolkit.render(container, {
-        layout:{
-            type:AbsoluteLayout.type
-        },
         plugins:[
             ActiveFilteringPlugin.type,
             {
@@ -234,8 +231,6 @@ ready(() => {
     new ControlsComponent(document.getElementById("controls"), surface)
 
     new Palette(surface, model)
-
-    debugger
 
     toolkit.load({
         url:'./dataset.json',
